@@ -28,13 +28,17 @@ public  class TeamPage extends BaseTest {
 
         Teampage.TPageFive.click();
         Thread.sleep(3000);
-        Assert.assertEquals(Teampage.ALECSA_TABISAURA.getText(), "ALECSA TABISAURA");
+        Assert.assertEquals(Teampage.Hong_Pang.getText(), "HONG PANG");
 
         Teampage.TPageSix.click();
         Thread.sleep(3000);
-        Assert.assertEquals(Teampage.YAN_XU.getText(), "YAN XU");
+        Assert.assertEquals(Teampage.Yi_Cao.getText(), "YI CAO");
 
         Teampage.TPageSeventh.click();
+        Thread.sleep(3000);
+        Assert.assertEquals(Teampage.ALECSA_TABISAURA.getText(), "ALECSA TABISAURA");
+
+        Teampage.TPageEight.click();
         Thread.sleep(3000);
         Assert.assertEquals(Teampage.ZAN_WANG.getText(), "ZAN WANG");
 
@@ -57,13 +61,17 @@ public  class TeamPage extends BaseTest {
 
         Teampage.TPageFive.click();
         Thread.sleep(3000);
-        Assert.assertEquals(Teampage.ALECSA_TABISAURA.getText(), "ALECSA TABISAURA");
+        Assert.assertEquals(Teampage.Hong_Pang.getText(), "龐宏");
 
         Teampage.TPageSix.click();
         Thread.sleep(3000);
-        Assert.assertEquals(Teampage.YAN_XU.getText(), "徐琰");
+        Assert.assertEquals(Teampage.Yi_Cao.getText(), "曹沂");
 
         Teampage.TPageSeventh.click();
+        Thread.sleep(3000);
+        Assert.assertEquals(Teampage.ALECSA_TABISAURA.getText(), "ALECSA TABISAURA");
+
+        Teampage.TPageEight.click();
         Thread.sleep(3000);
         Assert.assertEquals(Teampage.ZAN_WANG.getText(), "王贊");
 
@@ -86,13 +94,17 @@ public  class TeamPage extends BaseTest {
 
         Teampage.TPageFive.click();
         Thread.sleep(3000);
-        Assert.assertEquals(Teampage.ALECSA_TABISAURA.getText(), "ALECSA TABISAURA");
+        Assert.assertEquals(Teampage.Hong_Pang.getText(), "庞宏");
 
         Teampage.TPageSix.click();
         Thread.sleep(3000);
-        Assert.assertEquals(Teampage.YAN_XU.getText(), "徐琰");
+        Assert.assertEquals(Teampage.Yi_Cao.getText(), "曹沂");
 
         Teampage.TPageSeventh.click();
+        Thread.sleep(3000);
+        Assert.assertEquals(Teampage.ALECSA_TABISAURA.getText(), "ALECSA TABISAURA");
+
+        Teampage.TPageEight.click();
         Thread.sleep(3000);
         Assert.assertEquals(Teampage.ZAN_WANG.getText(), "王赞");
 

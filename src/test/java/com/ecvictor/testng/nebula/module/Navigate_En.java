@@ -65,6 +65,8 @@ public  class Navigate_En extends BaseTest {
     }
 
     public static void clickAdvisors(WebDriver driver) throws InterruptedException {
+
+        Thread.sleep(2000);
         Navigate.Advisors.click();
         Thread.sleep(2000);
         Assert.assertEquals(Navigate.AdvisorsPage.getText(),"OUR ADVISORS");
